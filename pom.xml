@@ -123,13 +123,13 @@
 			<version>2.1.0</version>
 		</dependency>
 
-		<dependency>
+		<!--<dependency>
 			<groupId>com.ngts.api</groupId>
 			<artifactId>ngts-common-service</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/resources/lib/ngts-common-service-1.0-SNAPSHOT.jar</systemPath>
-		</dependency>
+		</dependency> -->
 	</dependencies>
 
 	<dependencyManagement>
