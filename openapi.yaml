@@ -54,7 +54,18 @@ paths:
             '*/*':
               schema:
                 type: object
-
+  /auth/api/regUsers:
+    get:
+      tags:
+        - auth-controller-to-get-all-user
+      operationId: getAllregisteredusers
+      responses:
+        '200':
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: object
 components:
   schemas:
     SignupRequest:
